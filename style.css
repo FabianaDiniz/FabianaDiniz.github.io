@@ -1,0 +1,158 @@
+html,body{margin: 0%;}
+
+#capa {
+    background: url("2-Annie\ Spratt.png");
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+header {
+    background-color: black;
+    color: white;
+    height: 58px;
+    width: 100%;
+    position:fixed;
+    z-index: 10;
+    padding: 0px;
+}
+#logo {
+    width: 60px;
+    float: left;
+    position: absolute;
+    margin-left: 5%;}  
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;}
+.cabeça{
+    float: left;
+    padding: 20px 10px 20px 10px;
+}          
+li:hover {
+    background-color: white;
+    color: black;
+}
+#título{
+    color: white;
+    text-align: center;
+    font-size: 70px; 
+    padding-top: 20%;
+    margin: 0px;
+}
+#subtítulo{
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;}
+.icone{
+    width: 51px;
+    height: 51px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-items: center;}
+
+#nosso_trabalho {
+    padding: 20px;}
+
+section{padding: 20px; float: left;}
+.destaque{background-color: #f7f7f7;}
+
+.justificado {text-align: justify;padding: 0 3%;}
+.centralizado {
+    text-align: center;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    float: left;
+    }
+.dois {width: 43.3%;
+padding: 0 3%;
+border: 0%;
+}    
+.tres {
+    width: 27.699%;
+    float: left;
+    position: relative;
+    padding-right: 0%;
+}
+.cinco { width: 10%;
+padding:0 5%; text-align: center;}
+#free {text-align: center;}
+#social {
+    padding: 0;
+    width: 100%;
+}
+#projeto {padding-top: 60px;}
+#objetivo {padding-top: 90px;}
+footer {float: left;
+background-color: black;
+color: white;
+width: 100%;
+text-align: center;
+}
+#rodape {
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+}
+#nota {margin: 0;
+    padding: 0px;}
+#roda {margin: 0 5%;
+    text-align: center;
+    font-size: 30;
+    padding-bottom: 10px;}
+@media screen and (max-width:768px) {.caixa1, .caixa2, .caixa4, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7 {
+    float: none; 
+    width: 100%;
+    display: block;}
+    #título {
+        color: white;
+        text-align: center;
+        font-size: 70px; 
+        padding-top: 30%;
+        margin: 0px;}
+    #menu {visibility: hidden;}
+    #logodiv {
+        width: 100%;
+        position:relative;
+        padding: 0px;}
+    }
+@media screen and (max-width:350px) {
+    #título {
+        color: white;
+        text-align: center;
+        font-size: 70px; 
+        padding-top: 70%;
+        margin: 0px;}}
+@media screen and (min-width:350px) and (max-width: 700px) {
+            #título {
+                color: white;
+                text-align: center;
+                font-size: 70px; 
+                padding-top: 85%;
+                margin: 0px;}}
+@media screen and (min-width:600px) and (max-width: 700px){
+                    #título {
+                        color: white;
+                        text-align: center;
+                        font-size: 70px; 
+                        padding-top: 45%;
+                        margin: 0px;}}                               
+@media screen and (min-width:700px) and (max-width: 768px) {
+                    #título {
+                        color: white;
+                        text-align: center;
+                        font-size: 70px; 
+                        padding-top: 60%;
+                        margin: 0px;}} 
+@media screen and (min-width:768){
+                            #título {color: white;
+                                text-align: center;
+                                font-size: 70px; 
+                                padding-top: 25%;
+                                margin: 0px}} 
